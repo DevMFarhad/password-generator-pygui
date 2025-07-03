@@ -11,8 +11,7 @@ root.configure(bg="#f2f2f2")
 root.resizable(False, False)
 
 try:
-    photo = PhotoImage(file='icon.png')
-    root.iconphoto(True, photo)
+    root.iconbitmap("icon.ico")
 except:
     pass
 
